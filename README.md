@@ -1,18 +1,18 @@
-
-#Descripción
+# 💻 ENCRIPTADOR
+## Descripción
 Esta aplicación web permite transformar un texto encriptándolo o desencriptándolo según sea necesario. El encriptador utiliza un conjunto de reglas que sustituyen las vocales por claves específicas (grupos de letras), logrando así la encriptación o desencriptación del texto. Además, ofrece la opción de copiar el resultado para reutilizarlo.
 
 La aplicación también cuenta con un pie de página que incluye un apartado de contacto y enlaces a redes sociales para facilitar el acceso a las distintas plataformas de comunicación.
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+- La letra "e" es convertida para "enter"
+- La letra "i" es convertida para "imes"
+- La letra "a" es convertida para "ai"
+- La letra "o" es convertida para "ober"
+- La letra "u" es convertida para "ufat"
 
-#Requisitos:
+## Requisitos:
 
 Debe funcionar solo con letras minúsculas
 No deben ser utilizados letras con acentos ni caracteres especiales
@@ -30,7 +30,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 
 ## Autor
-Hecho por [Gaby Benton](https://github.com/IvonEsc)
+Hecho por [Gaby Benton](https://github.com/GabyBenton)
 
 ## Contacto 
 adrianach40@gmail.com
