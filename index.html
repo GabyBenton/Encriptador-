@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <main class="main">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </div>
+            <div class="container">
+                <div class="input_text">
+                    <textarea class="entrada_encriptador" id="entrada_encriptador" placeholder="Ingrese texto aquí"></textarea>
+                    <div class="btn">
+                        <small><img src="./img/icono.svg"> letras minusculas y sin acentos</small>
+                        <div class="botones">
+                            <button class="boton encriptar" id="encriptar">Encriptar</button>
+                            <button class="boton desencriptar"id="desencriptar">Desencriptar</button>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <div class="output_text" id="output_text">
+                <div class="resultado no_texto">
+                    <div class="no_output">
+                        <img id="buscando" class="" src="img/buscando.svg" alt="buscando">
+                        <h2>Ningun mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                    <div class="result_output">
+                        <textarea class="salidaencriptador" id="salidaencriptador" ></textarea>
+                        <button class="boton desencriptar botoncopiar"id="botoncopiar">Copiar</button>
+                    </div>
+                </div>
+            </div>
+           
+        </main>
+        <footer class="footer-distributed">
+			<div class="footer-center">
+				<h3>Encriptador - <span>Curso Alura</span></h3>
+				<p class="autor">Gaby Benton © 2024</p>
+
+				<div class="footer-icons">
+					<a href="https://github.com/GabyBenton"><i class="fa fa-github"></i></a>
+
+				</div>
+			</div>
+
+		</footer>
+        
+        <script src="script.js"> </script>
+        
+        <div id="custom-alert"></div>
+    </body>
+</html>
